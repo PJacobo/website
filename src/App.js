@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Case from './components/Case.js'
+import Footer from './components/Footer.js'
+import Head from './components/Head.js'
+import Header from './components/Header.js'
+import Hero from './components/Hero.js'
+import Navigation from './components/Navigation.js'
+import Services from './components/Services.js'
+import Subscribe from './components/Subscribe.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+      <Navigation></Navigation>
+      <div id="colorlib-page">
+        {/* <Head></Head> */}
+        <Header></Header>
+        <Hero></Hero>
+        <Services></Services>
+        <Case></Case>
+        <Footer></Footer>
+  
+      </div>
+      </div>
+
+    );
+  }
 }
 
 export default App;
