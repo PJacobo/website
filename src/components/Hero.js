@@ -10,7 +10,6 @@ export default class Chero extends Component {
                     <a target="_blank" href="https://github.com/PJacobo">Github</a>
                     <a target="_blank" href="PaulJacobo.2020.May.Resume.A1.pdf" className="btn-view">Resume</a>
 
-
                 </p>
                 <div className="owl-carousel">
                     <div className="item">
@@ -35,7 +34,7 @@ export default class Chero extends Component {
                     <div className="item">
                         <div className="hero-flex js-fullheight">
                             <div className="col-three-forth">
-                                <div className="hero-img js-fullheight" style={{ backgroundImage: 'url(images/suit2.jpg)' }} />
+                                <div className="hero-img js-fullheight" style={{ backgroundImage: 'url(images/suit2.JPG)' }} />
                             </div>
                             <div className="col-one-forth js-fullheight">
                                 <div className="display-t js-fullheight">
