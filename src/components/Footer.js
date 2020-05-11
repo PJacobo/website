@@ -7,13 +7,13 @@ export default class Footer extends Component {
   <div className="container">
     <div className="row row-padded-bottom">
       <div className="col-md-6">
-        <h3>Lets Talk</h3>
-        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text</p>
-        <p className="btn-footer"><a href="#">Tell us about your project</a></p>
+        <h3>Interested?</h3>
+        <p className="btn-footer"><a href="mailto:mail@pdjonline.xyz">Tell me about your project</a></p>
       </div>
       <div className="col-md-6 info">
         <h3>Info</h3>
-        <p>Email: <strong><a href="#">mail@pdjonline.xyz</a></strong></p>
+        <p>Email: <a href="mailto:mail@pdjonline.xyz"><strong>mail@pdjonline.xyz</strong></a></p>
+
         <p>Phone: <strong><a href="#">(817) 901-7174</a></strong></p>
         <p>Location: <strong>Dallas, Texas</strong></p>
         <p className="colorlib-social-icons">

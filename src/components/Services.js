@@ -7,8 +7,8 @@ export default class Services extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-                            <span>What I Do</span>
-                            <h2>Strategy, design and a bit of magic</h2>
+                            <span>Goals</span>
+                            <h2>Strategy</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -19,22 +19,20 @@ export default class Services extends Component {
                                 </span>
                                 <div className="desc">
                                     <h3><a href="#">Explore</a></h3>
-                                    <h4>Design Sprints</h4>
-                                    <h4>Product Strategy</h4>
-                                    <h4>UX Strategy</h4>
+                                    <h4>New Technologies</h4>
+                                    <h4>Software Design</h4>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4 text-center animate-box">
                             <div className="services">
                                 <span className="icon">
-                                    <i className="icon-layers" />
+                                    <i className="icon-cog" />
                                 </span>
                                 <div className="desc">
-                                    <h3><a href="#">Create</a></h3>
-                                    <h4>Information</h4>
-                                    <h4>UX/UI Design</h4>
-                                    <h4>Branding</h4>
+                                    <h3><a href="#">Engineer</a></h3>
+                                    <h4>Back-End Services</h4>
+                                    <h4>Front-End Design</h4>
                                 </div>
                             </div>
                         </div>
@@ -46,8 +44,7 @@ export default class Services extends Component {
                                 <div className="desc">
                                     <h3><a href="#">Learn</a></h3>
                                     <h4>Prototyping</h4>
-                                    <h4>User Testing</h4>
-                                    <h4>UI Testing</h4>
+                                    <h4>Testing</h4>
                                 </div>
                             </div>
                         </div>

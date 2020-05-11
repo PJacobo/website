@@ -6,10 +6,11 @@ export default class Chero extends Component {
 
             <div id="colorlib-hero" className="js-fullheight">
                 <p className="social-media">
-                    <a href="#">Twitter</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Dribbble</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/pauljacobo3725/">Linkedin</a>
+                    <a target="_blank" href="https://github.com/PJacobo">Github</a>
+                    <a target="_blank" href="PaulJacobo.2020.May.Resume.A1.pdf" className="btn-view">Resume</a>
+
+
                 </p>
                 <div className="owl-carousel">
                     <div className="item">
@@ -22,8 +23,8 @@ export default class Chero extends Component {
                                     <div className="display-tc js-fullheight">
                                         <div className="text-inner">
                                             <div className="desc">
-                                                <h2>I’m Paul.</h2>
-                                                <p><a href="work.html" className="btn-view">Hire me now <i className="icon-arrow-right3" /></a></p>
+                                                <h2>Hello Everyone! <br></br>I'm Paul!</h2>
+                                                <p><a href="work.html" className="btn-view">Check out my work<i className="icon-arrow-right3" /></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -41,8 +42,9 @@ export default class Chero extends Component {
                                     <div className="display-tc js-fullheight">
                                         <div className="text-inner">
                                             <div className="desc">
-                                                <h2>I'm a programmer &amp; based in Dallas.</h2>
-                                                <p><a href="work.html" className="btn-view">Hire me now <i className="icon-arrow-right3" /></a></p>
+                                                <h2>I'm a developer from the DFW area.</h2>
+                                                <h5>(Willing to relocate)</h5>
+                                                <p><a target="_blank" href="PaulJacobo.2020.May.Resume.A1.pdf" className="btn-view">View my resume<i className="icon-arrow-right3" /></a></p>
                                             </div>
                                         </div>
                                     </div>
